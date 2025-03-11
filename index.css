@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Parisienne&display=swap');
+
+body {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  padding-top: 70px;
+
+  font-family: "Oswald", sans-serif;
+}
+
+.convite {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.252);
+
+  background-color: lightgoldenrodyellow;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nome-casal {
+  font-size: 68px;
+  margin: 50px 0 10px 0;
+  text-align: center;
+  font-family: "Parisienne", cursive;
+
+}
+
+.linha {
+  width: 70%;
+  height: 1px;
+  background-color: black;
+  margin: 10px 0 10px 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dia p {
+  text-align: center;
+  line-height: 4px;
+}
+
+.dia-data {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.decoracao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.decoracao-flor {
+  width: 30%;
+  text-align: center;
+  margin: 0;
+}
+
+.cerimonia {
+  text-align: center;
+}
+
+.cerimonia-titulo {
+  font-weight: bold;
+  line-height: 1px;
+}
+
+.cerimonia-textos {
+  font-size: 12px;
+  line-height: 1px;
+}
+
+.recepcao {
+  text-align: center;
+}
+
+.recepcao-titulo {
+  font-weight: bold;
+  line-height: 1px;
+}
+
+.recepcao-textos {
+  font-size: 12px;
+  line-height: 1px;
+}
+
+
+
+
+
